@@ -1,0 +1,27 @@
+.main-nav {
+  margin-bottom: 266px;
+}
+
+@media (max-width: $tablet-width) {
+  .main-nav {
+    display: none;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: $mobile-width-only) {
+  .main-nav {
+    position: relative;
+    margin-bottom: 0;
+    z-index: -1;
+    width: 100%;
+  }
+
+  .main-nav--closed {
+    display: none;
+  }
+
+  .main-nav--opened {
+    display: block;
+  }
+}

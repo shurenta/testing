@@ -1,0 +1,128 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__text {
+  margin: 0;
+  margin-top: -45px;
+  width: 340px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  color:  $basik-white;
+  text-align: center;
+  padding-bottom: 18px;
+}
+
+.form__input {
+  margin-left: 13px;
+  padding-left: 30px;
+  padding-right: 29px;
+  padding-top: 14px;
+  padding-bottom: 8px;
+  border-radius: 6px;
+  border: 1px solid $border-input;
+  color: $text-input;
+  margin-bottom: 20px;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.form__submit {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 21px;
+  color: $basik-black;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 6px;
+  margin-left: 13px;
+  background-color: $submit-background;
+  border:  none;
+}
+
+@media (max-width: $tablet-width) {
+  .form {
+    width: 80%;
+    display: block;
+    text-align: center;
+    margin-left: 10%;
+  }
+
+  .form__text {
+    margin: 0 auto;
+    margin-top: 0;
+    margin-bottom: 30px;
+    width: 55%;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    line-height: 28px;
+    color:  $basik-black;
+    text-align: center;
+    padding-bottom: 0;
+  }
+
+  .form__input {
+    width: 42%;
+    margin-left: 0;
+    padding-left: 30px;
+    padding-right: 29px;
+    padding-top: 14px;
+    padding-bottom: 8px;
+    border-radius: 6px;
+    border: 1px solid $border-input;
+    color: $text-input;
+    margin-bottom: 20px;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .form__submit {
+    width: 52%;
+    color: $basik-black;
+    padding-left: 35px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 6px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: $mobile-width-only) {
+  .form {
+    width: 100%;
+    margin: 0;
+  }
+
+  .form__text {
+    margin: 0 auto;
+    margin-top: 0;
+    margin-bottom: 20px;
+    width: 100%;
+    padding-bottom: 0;
+  }
+
+  .form__input {
+    width: 71%;
+  }
+
+  .form__submit {
+    width: 89%;
+    color: $basik-black;
+    padding-left:5px;
+    padding-right: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 6px;
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,35 @@
+/*variables*/
+@import "variables.scss";
+
+/*normalize.scss*/
+@import "node_modules/normalize.scss/normalize.scss";
+
+/*fonts*/
+@import "fonts.scss";
+
+/*global*/
+@import "global.scss";
+
+/*container*/
+@import "blocks/container.scss";
+
+/*background-img*/
+@import "blocks/background-img.scss";
+
+/*page-body*/
+@import "blocks/page-body.scss";
+
+/*page-header*/
+@import "blocks/page-header.scss";
+
+/*main-nav*/
+@import "blocks/main-nav.scss";
+
+/*site-menu*/
+@import "blocks/site-menu.scss";
+
+/*preview.scss*/
+@import "blocks/preview.scss";
+
+/*form*/
+@import "blocks/form.scss";
